@@ -36,7 +36,7 @@
 "place": "충남대학교 인문대학 120·127호",
 "mode": "off",
 "url": "https://krlt.org/conference/2026-한국시학회-정기학술대회/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (자체 홈페이지 공지 없음)"
 },
 {
 "id": "seongbuk",
@@ -47,8 +47,9 @@
 "time": "13:00–18:10",
 "place": "성북구청 4층 성북아트홀",
 "mode": "off",
-"url": "https://krlt.org/conference/k인문학-학술대회-성북城北-장소와-기억의-문학사/",
-"src": "현문대 게시"
+"url": "https://icklc.korea.ac.kr/icklc/board/Notice.do?mode=view&articleNo=1588331&article.offset=0&articleLimit=10",
+"src": "고려대 국제한국언어문화연구소 공지",
+"alt": "https://krlt.org/conference/k인문학-학술대회-성북城北-장소와-기억의-문학사/"
 },
 {
 "id": "kimsoohyun",
@@ -60,7 +61,7 @@
 "place": "김수현드라마아트홀 2층 교육실",
 "mode": "off",
 "url": "https://krlt.org/conference/2026-김수현드라마아트홀-드라마-콜로키움/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (자체 홈페이지 공지 없음)"
 },
 {
 "id": "kadh2026",
@@ -84,8 +85,9 @@
 "time": "13:00–17:15",
 "place": "연세대학교 위당관 6층 문과대학 100주년 기념홀",
 "mode": "off",
-"url": "https://krlt.org/conference/2026-연세노벨위크-학술컨퍼런스-트라우마와-식민주의/",
-"src": "현문대 게시"
+"url": "https://nobelweek.yonsei.ac.kr/",
+"src": "연세 노벨위크 공식 홈페이지",
+"alt": "https://krlt.org/conference/2026-연세노벨위크-학술컨퍼런스-트라우마와-식민주의/"
 },
 {
 "id": "chula2026",
@@ -116,8 +118,9 @@
 "time": "13:00–18:00",
 "place": "한국연구원 B2 대회의실 (마포구 신촌로 226)",
 "mode": "off",
-"url": "https://krlt.org/conference/2026년-국제비교한국학회-하반기-학술대회-세계-한국이/",
-"src": "현문대 게시"
+"url": "https://iacks.org/",
+"src": "국제비교한국학회 홈페이지",
+"alt": "https://krlt.org/conference/2026년-국제비교한국학회-하반기-학술대회-세계-한국이/"
 },
 {
 "id": "cau-film",
@@ -128,8 +131,9 @@
 "time": "09:00–20:00",
 "place": "중앙대학교 301관 (세부 장소 추후 공지)",
 "mode": "off",
-"url": "https://krlt.org/conference/2026-제2회-영화미디어학센터-대학원생-컨퍼런스/",
-"src": "현문대 게시"
+"url": "https://cau-ccms.com/programs/gradcon/",
+"src": "중앙대 영화미디어학센터 홈페이지",
+"alt": "https://krlt.org/conference/2026-제2회-영화미디어학센터-대학원생-컨퍼런스/"
 },
 {
 "id": "koredu89",
@@ -181,7 +185,7 @@
 ],
 "note": "포스터 발표는 1/20·1/21 13:30–16:00. 지난 대회에는 상허학회·한국근대문학회·한국극예술학회 등이 같은 기간 정기대회를 함께 열었습니다.",
 "url": "https://krlt.org/archive/제4회-한국현대문학자대회-안내-2027년-1월-2021일-연세대/",
-"src": "현문대 공식"
+"src": "한국현대문학자대회(현문대) 공식 홈페이지"
 },
 {
 "id": "ucla-multi",
@@ -314,8 +318,9 @@
 "date": "2027-01-29",
 "approx": "2027년 1월 말",
 "basis": "2026년 겨울 대회 1.30 개최.",
-"url": "https://krlt.org/page/14/",
-"src": "현문대 게시(2026년 대회)"
+"url": "https://minmunhak.jams.or.kr/co/main/jmMain.kci",
+"src": "민족문학사연구소 홈페이지",
+"alt": "https://krlt.org/page/14/"
 },
 {
 "id": "x-sanghur",

@@ -247,7 +247,7 @@ function card(e){
      ${e.note?`<div><span class="i">✎</span><span>${esc(e.note)}</span></div>`:''}
    </div>
    <div class="foot">
-     <span class="src">출처: ${esc(e.src||'직접 입력')}</span>
+     <span class="src">출처: ${esc(e.src||'직접 입력')}${e.alt?` · <a href="${href(e.alt)}" target="_blank" rel="noopener" style="color:inherit">현문대 게시글</a>`:''}</span>
      ${!e.exp&&!e.tbd&&!isPast(e)?`<a class="btn" href="${gcal(e)}" target="_blank" rel="noopener">＋ 캘린더</a>`:''}
      <button class="btn" data-copy="${esc(e.id)}">⧉ 복사</button>
      ${e.url?`<a class="btn dark" href="${href(e.url)}" target="_blank" rel="noopener">${e.exp?'학회 페이지':'공지 원문'} ↗</a>`:''}
