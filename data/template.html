@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>국문학 학술대회 일정</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f6f1e7; --paper2:#efe7d6; --card:#fffdf8; --ink:#1f1b16; --ink2:#5b5247; --ink3:#8c8273;
+  --line:#e2d8c4; --seal:#b23a2b;
+  --modern:#2f5d8a; --modern-s:#e3ecf5; --classic:#7a5a1c; --classic-s:#f3ead4;
+  --hanmun:#3d6b4f; --hanmun-s:#e1eee5; --whole:#6b3f7a; --whole-s:#efe4f2;
+  --intl:#2c6f72; --intl-s:#dff0ef; --adj:#6b6358; --adj-s:#ece8e1;
+  --off:#1f6b3a; --off-s:#e2f2e6; --on:#1d4f9c; --on-s:#e2ebfa; --hyb:#7a4a0c; --hyb-s:#fbeed6;
+  --r:14px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans KR",system-ui,sans-serif;font-size:15px;line-height:1.55}
+body{background-image:radial-gradient(rgba(120,90,40,.05) 1px,transparent 1px);background-size:4px 4px}
+a{color:inherit} button{font:inherit;cursor:pointer}
+header.top{max-width:1320px;margin:0 auto;padding:26px 24px 14px;display:flex;align-items:flex-end;gap:16px;justify-content:space-between;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:14px}
+.seal{width:46px;height:46px;border-radius:9px;background:var(--seal);color:#fff;display:grid;place-items:center;font-family:"Gowun Batang",serif;font-weight:700;font-size:15px;line-height:1.05;text-align:center;transform:rotate(-4deg)}
+.brand h1{margin:0;font-family:"Gowun Batang",serif;font-size:26px;letter-spacing:-.5px}
+.brand p{margin:2px 0 0;color:var(--ink2);font-size:13px}
+.today{font-size:13px;color:var(--ink2);text-align:right}
+.today b{color:var(--ink)}
+.shell{max-width:1320px;margin:0 auto 40px;padding:0 24px;display:grid;grid-template-columns:232px 1fr;gap:20px}
+nav.side{position:sticky;top:16px;align-self:start;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px}
+nav.side a{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;text-decoration:none;color:var(--ink2);font-weight:500;font-size:14.5px}
+nav.side a:hover{background:var(--paper2);color:var(--ink)}
+nav.side a.on{background:var(--ink);color:#fff}
+nav.side a .n{margin-left:auto;font-size:12px;background:var(--paper2);color:var(--ink2);border-radius:20px;padding:0 8px;min-width:22px;text-align:center}
+nav.side a.on .n{background:rgba(255,255,255,.18);color:#fff}
+nav.side hr{border:0;border-top:1px dashed var(--line);margin:10px 4px}
+.legend{padding:6px 10px 4px;font-size:12px;color:var(--ink3)}
+.legend div{display:flex;align-items:center;gap:7px;margin:4px 0}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:none}
+main{min-width:0}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.search{flex:1 1 260px;display:flex;align-items:center;gap:8px;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:0 12px}
+.search input{border:0;background:transparent;outline:none;padding:11px 0;font:inherit;width:100%}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;align-items:center}
+.chips .lab{font-size:12px;color:var(--ink3);margin-right:4px;min-width:30px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:30px;padding:6px 13px;font-size:13.5px;color:var(--ink2);display:inline-flex;align-items:center;gap:6px}
+.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.headrow{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:10px 0 4px}
+.headrow h2{margin:0;font-family:"Gowun Batang",serif;font-size:23px}
+.headrow h2 small{font-family:"Noto Sans KR";font-size:13px;color:var(--ink3);font-weight:400;margin-left:6px}
+.sub{color:var(--ink2);font-size:13.5px;margin:2px 0 16px}
+.seg{display:inline-flex;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:3px}
+.seg button{border:0;background:transparent;padding:6px 12px;border-radius:8px;color:var(--ink2);font-size:13.5px}
+.seg button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08);font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.month{grid-column:1/-1;font-family:"Gowun Batang",serif;font-size:17px;margin:10px 0 -2px;padding-bottom:6px;border-bottom:1px solid var(--line);color:var(--ink2)}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:15px 18px 13px;display:flex;flex-direction:column;gap:7px;border-left:4px solid var(--c)}
+.card.expected{border-style:dashed;border-left-style:solid;background:repeating-linear-gradient(135deg,var(--card) 0 14px,#fbf7ee 14px 15px)}
+.card.past{opacity:.8}
+.tags{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding-right:30px}
+.tag{font-size:12px;padding:2px 8px;border-radius:6px;background:var(--cs);color:var(--c);font-weight:500}
+.tag.dd{background:var(--ink);color:#fff}
+.tag.dd.soon{background:var(--seal)}
+.tag.gray{background:var(--paper2);color:var(--ink2)}
+.tag.warn{background:#fff3cd;color:#7a5a00}
+.mode{font-size:12px;font-weight:700;padding:2px 9px;border-radius:20px;display:inline-flex;gap:4px;align-items:center}
+.mode.off{background:var(--off-s);color:var(--off)} .mode.on{background:var(--on-s);color:var(--on)} .mode.hyb{background:var(--hyb-s);color:var(--hyb)} .mode.unk{background:var(--paper2);color:var(--ink3);font-weight:500}
+.card h3{margin:2px 0 0;font-family:"Gowun Batang",serif;font-size:18px;line-height:1.38;letter-spacing:-.2px}
+.theme{color:var(--ink2);font-size:13.5px;margin-top:-2px}
+.org{font-size:13px;color:var(--ink3)}
+.meta{display:grid;gap:3px;font-size:13.5px;color:var(--ink2)}
+.meta div{display:flex;gap:8px}
+.meta .i{width:16px;flex:none;color:var(--ink3);text-align:center}
+.meta a{color:var(--seal)}
+.foot{margin-top:auto;padding-top:10px;border-top:1px dashed var(--line);display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.src{font-size:11.5px;color:var(--ink3);margin-right:auto}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 10px;font-size:13px;text-decoration:none;display:inline-flex;gap:5px;align-items:center;white-space:nowrap}
+.btn:hover{border-color:var(--ink3)}
+.btn.dark{background:var(--ink);color:#fff;border-color:var(--ink)}
+.star{position:absolute;top:12px;right:12px;border:0;background:transparent;font-size:20px;color:#cbbfa8;line-height:1;padding:4px}
+.star.on{color:var(--seal)}
+.empty{padding:40px 10px;text-align:center;color:var(--ink3);border:1px dashed var(--line);border-radius:var(--r)}
+.note{background:#fbf6ea;border:1px solid var(--line);border-radius:10px;padding:11px 14px;font-size:13px;color:var(--ink2);margin-bottom:14px}
+.note b{color:var(--ink)}
+.calhead{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.calhead h2{margin:0 6px;font-family:"Gowun Batang",serif;font-size:23px;min-width:150px;text-align:center}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.cal .dow{background:var(--paper2);font-size:12.5px;text-align:center;padding:7px 0;color:var(--ink2);font-weight:500}
+.cal .dow:first-child{color:var(--seal)}
+.cal .cell{min-height:104px;border-top:1px solid var(--line);border-left:1px solid var(--line);padding:6px;background:var(--card);display:flex;flex-direction:column;gap:3px;min-width:0}
+.cal .cell:nth-child(7n+1){border-left:0}
+.cal .cell.out{background:#faf6ee;color:#c5b9a3}
+.cal .cell .d{font-size:12.5px;font-weight:700;color:var(--ink2)}
+.cal .cell.sun .d{color:var(--seal)}
+.cal .cell.today{box-shadow:inset 0 0 0 2px var(--seal)}
+.ev{font-size:11.5px;line-height:1.3;padding:3px 6px;border-radius:5px;background:var(--cs);color:var(--c);cursor:pointer;border:0;text-align:left;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.ev.exp{background:transparent;border:1px dashed var(--c)}
+.dl{display:flex;flex-direction:column;gap:8px}
+.dlrow{display:flex;align-items:center;gap:14px;border:1px solid var(--line);border-radius:12px;padding:12px 16px;background:var(--card);border-left:4px solid var(--c)}
+.dlrow .big{font-family:"Gowun Batang",serif;font-size:22px;min-width:70px;text-align:center}
+.dlrow .big.soon{color:var(--seal)}
+.dlrow .t{flex:1} .dlrow .t b{display:block} .dlrow .t span{font-size:13px;color:var(--ink2)}
+table.dir{width:100%;border-collapse:collapse;font-size:13.5px}
+table.dir th{text-align:left;font-weight:500;color:var(--ink3);font-size:12.5px;border-bottom:1px solid var(--line);padding:8px 6px}
+table.dir td{border-bottom:1px solid var(--line);padding:9px 6px;vertical-align:top}
+table.dir td.nm{font-family:"Gowun Batang",serif;font-size:15px;white-space:nowrap}
+table.dir .st{font-size:12.5px;color:var(--ink2)}
+table.dir .st b{color:var(--off)}
+.gbadge{font-size:11px;padding:1px 6px;border-radius:5px;background:var(--paper2);color:var(--ink2);white-space:nowrap}
+.gbadge.top{background:#f6e1dc;color:var(--seal)}
+.dirwrap{overflow-x:auto}
+form.add{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+form.add label{display:flex;flex-direction:column;gap:5px;font-size:13px;color:var(--ink2)}
+form.add label.full{grid-column:1/-1}
+form.add input,form.add select,form.add textarea{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:10px 18px;border-radius:30px;font-size:14px;opacity:0;transition:.25s;pointer-events:none;z-index:50}
+.toast.on{opacity:1;transform:translateX(-50%)}
+.modal{position:fixed;inset:0;background:rgba(31,27,22,.45);display:none;align-items:center;justify-content:center;padding:16px;z-index:40}
+.modal.on{display:flex}
+.modal .box{background:var(--card);border-radius:16px;max-width:520px;width:100%;padding:8px;max-height:90vh;overflow:auto}
+footer{max-width:1320px;margin:0 auto;padding:0 24px 40px;color:var(--ink3);font-size:12.5px;line-height:1.7}
+footer .nonprofit{margin:18px 0 0;padding:16px 18px;border:1px solid var(--line,#ddd);border-radius:10px;background:var(--paper2,rgba(0,0,0,.02));color:var(--ink2,#444);font-size:13px}
+footer .credit{margin-top:14px;padding-top:12px;border-top:1px solid var(--line,#ddd);text-align:center;font-size:13px;color:var(--ink2,#444)}
+footer .credit a{color:inherit}
+@media (max-width:860px){
+  .shell{grid-template-columns:1fr}
+  nav.side{position:static;display:flex;overflow-x:auto;gap:4px;padding:8px}
+  nav.side a{white-space:nowrap;padding:8px 12px}
+  nav.side hr,.legend{display:none}
+  .cal .cell{min-height:70px;padding:3px}
+  .ev{font-size:10.5px;-webkit-line-clamp:1}
+  form.add{grid-template-columns:1fr}
+  .panel{padding:16px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="seal">國<br>文</div>
+    <div>
+      <h1>국문학 학술대회 일정</h1>
+      <p>현대문학 · 고전문학 · 한문학 · 해외 한국문학 — 모든 일정에 원문 링크</p>
+    </div>
+  </div>
+  <div class="today" id="todayBox"></div>
+</header>
+
+<div class="shell">
+  <nav class="side">
+    <a href="#upcoming" data-v="upcoming">◷ 다가오는 일정 <span class="n" id="nUp"></span></a>
+    <a href="#calendar" data-v="calendar">▦ 월별 달력</a>
+    <a href="#deadlines" data-v="deadlines">⏳ 신청·등록 마감 <span class="n" id="nDl"></span></a>
+    <a href="#overseas" data-v="overseas">✈ 해외 학회 <span class="n" id="nIntl"></span></a>
+    <a href="#societies" data-v="societies">⌂ 학회 목록 <span class="n" id="nSoc"></span></a>
+    <a href="#archive" data-v="archive">▤ 지난 일정 <span class="n" id="nPast"></span></a>
+    <a href="#saved" data-v="saved">☆ 관심 학술대회 <span class="n" id="nSaved">0</span></a>
+    <hr>
+    <a href="#add" data-v="add">＋ 일정 직접 추가</a>
+    <a href="#about" data-v="about">ⓘ 자료 기준·수집 방법</a>
+    <hr>
+    <div class="legend" id="legend"></div>
+  </nav>
+  <main id="main"></main>
+</div>
+
+<footer>
+  <p>자료 기준일 __CHECKED__ · 각 학회 홈페이지와 JAMS 공지, 현문대(krlt.org), KADH, 대학 국문과 게시판, KCI 학회 학술대회 기록을 직접 확인해 정리했습니다. 모든 일정에는 확인한 원문 링크가 붙어 있습니다. 점선 카드는 공지 전 <b>예상 일정</b>(역대 개최 시기 기반)입니다. 참석 전 반드시 원문을 확인하세요.</p>
+  <div class="nonprofit">
+    <b>이 사이트에 대하여</b><br>
+    이 사이트는 어떠한 이익도 추구하지 않습니다. 광고도, 회원 가입도, 이용료도 없습니다. 흩어져 있는 국문학 학술대회 소식을 한곳에 모아, 연구자와 대학원생, 국문학을 아끼는 모든 분이 더 쉽게 만나고 함께 읽고 이야기할 수 있도록 하려고 만들었습니다. 학회 소식은 나눌수록 넓어진다고 믿습니다. 자유롭게 보시고 널리 공유해 주세요.<br>
+    빠진 학회나 잘못된 일정을 알려 주시면 고치겠습니다. 각 학술대회의 저작권과 공지 내용은 해당 학회에 있습니다.
+  </div>
+  <div class="credit">제작 및 관리: 김영일 (<a href="mailto:linguist@kangwon.ac.kr">linguist@kangwon.ac.kr</a>)</div>
+</footer>
+
+<div class="modal" id="modal"><div class="box" id="modalBox"></div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+const CHECKED = '__CHECKED__';
+const EVENTS = __EVENTS__;
+const SOCIETIES = __SOCIETIES__;
+const FIELDS = {
+  modern:{label:'현대문학',c:'var(--modern)',cs:'var(--modern-s)'},
+  classic:{label:'고전문학',c:'var(--classic)',cs:'var(--classic-s)'},
+  hanmun:{label:'한문학',c:'var(--hanmun)',cs:'var(--hanmun-s)'},
+  whole:{label:'국어국문 통합',c:'var(--whole)',cs:'var(--whole-s)'},
+  intl:{label:'해외·국제',c:'var(--intl)',cs:'var(--intl-s)'},
+  adj:{label:'인접 분야',c:'var(--adj)',cs:'var(--adj-s)'}
+};
+const MODES = {off:['대면','●'],on:['비대면(온라인)','◉'],hyb:['대면+온라인 병행','◐']};
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let saved=new Set(store.get('gm_saved',[])), mine=store.get('gm_mine',[]);
+let state={field:'all',mode:'all',q:'',range:'all',calY:null,calM:null,socF:'all'};
+const TODAY=(()=>{const d=new Date();d.setHours(0,0,0,0);return d})();
+const pd=s=>{const [y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)};
+const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const DOW=['일','월','화','수','목','금','토'];
+const fmt=s=>{const d=pd(s);return `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 (${DOW[d.getDay()]})`};
+const fmtS=s=>{const d=pd(s);return `${d.getMonth()+1}.${d.getDate()}(${DOW[d.getDay()]})`};
+const dday=s=>Math.round((pd(s)-TODAY)/864e5);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const href=u=>esc(encodeURI(decodeURI(u)));
+const all=()=>EVENTS.concat(mine.map(e=>({...e,user:true})));
+const endOf=e=>e.end||e.date;
+const isPast=e=>!e.exp&&dday(endOf(e))<0;
+function matches(e){
+  if(state.field!=='all'&&e.f!==state.field) return false;
+  if(state.mode==='exp'){ if(!e.exp) return false; }
+  else if(state.mode==='conf'){ if(e.exp) return false; }
+  else if(state.mode!=='all'){ if(e.mode!==state.mode) return false; }
+  if(state.q){const h=[e.title,e.theme,e.org,e.place,e.note,e.basis].join(' ').toLowerCase(); if(!state.q.toLowerCase().split(/\s+/).every(w=>h.includes(w))) return false;}
+  return true;
+}
+function gcal(e){const s=e.date.replace(/-/g,'');const n=pd(endOf(e));n.setDate(n.getDate()+1);
+  const det=[e.theme,e.org,e.time?'시간: '+e.time:'',e.url].filter(Boolean).join('\n');
+  return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.title)}&dates=${s}/${iso(n).replace(/-/g,'')}&details=${encodeURIComponent(det)}&location=${encodeURIComponent(e.place||'')}`;}
+function modeTag(e){ if(e.exp) return ''; const m=MODES[e.mode]; return m?`<span class="mode ${e.mode}">${m[1]} ${m[0]}</span>`:`<span class="mode unk">진행 방식 공지 확인</span>`; }
+function ddTag(e){
+  if(e.exp) return `<span class="tag warn">예상 · ${esc(e.approx)}</span>`;
+  if(e.tbd) return `<span class="tag warn">날짜 미정 · ${esc(e.approx)}</span>`;
+  const a=dday(e.date),b=dday(endOf(e));
+  if(b<0) return `<span class="tag gray">종료</span>`;
+  if(a<=0) return `<span class="tag dd soon">진행 중</span>`;
+  if(a===1) return `<span class="tag dd soon">내일</span>`;
+  return `<span class="tag dd ${a<=7?'soon':''}">D-${a}</span>`;
+}
+function card(e){
+  const F=FIELDS[e.f]||FIELDS.adj;
+  const date=e.exp?esc(e.approx)+' (미확정)':e.tbd?esc(e.approx)+' (세부 날짜 미공지)':fmt(e.date)+(e.end?' – '+fmt(e.end).replace(/^\d+년 /,''):'');
+  const dl=(e.deadlines||[]).map(x=>{const n=dday(x.d);const lab=x.url?`<a href="${href(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`:esc(x.label);return `<div><span class="i">⚑</span><span>${lab} ${fmtS(x.d)} ${n<0?'· 마감됨':n===0?'· <b style="color:var(--seal)">오늘 마감</b>':'· D-'+n}</span></div>`}).join('');
+  return `<article class="card ${e.exp?'expected':''} ${isPast(e)?'past':''}" style="--c:${F.c};--cs:${F.cs}">
+   <button class="star ${saved.has(e.id)?'on':''}" data-star="${esc(e.id)}" aria-label="관심 표시">${saved.has(e.id)?'★':'☆'}</button>
+   <div class="tags">${ddTag(e)}${modeTag(e)}<span class="tag">${F.label}</span>${e.user?'<span class="tag gray">직접 추가</span>':''}</div>
+   <h3>${esc(e.title)}</h3>
+   ${e.theme?`<div class="theme">「${esc(e.theme)}」</div>`:''}
+   <div class="org">${esc(e.org)}</div>
+   <div class="meta">
+     <div><span class="i">◷</span><span>${date}${e.time?' · '+esc(e.time):''}</span></div>
+     ${e.place?`<div><span class="i">⌖</span><span>${esc(e.place)}</span></div>`:(!e.exp?`<div><span class="i">⌖</span><span style="color:var(--ink3)">장소는 원문 공지 참고</span></div>`:'')}
+     ${dl}
+     ${e.basis?`<div><span class="i">✎</span><span>근거: ${esc(e.basis)}</span></div>`:''}
+     ${e.note?`<div><span class="i">✎</span><span>${esc(e.note)}</span></div>`:''}
+   </div>
+   <div class="foot">
+     <span class="src">출처: ${esc(e.src||'직접 입력')}</span>
+     ${!e.exp&&!e.tbd&&!isPast(e)?`<a class="btn" href="${gcal(e)}" target="_blank" rel="noopener">＋ 캘린더</a>`:''}
+     <button class="btn" data-copy="${esc(e.id)}">⧉ 복사</button>
+     ${e.url?`<a class="btn dark" href="${href(e.url)}" target="_blank" rel="noopener">${e.exp?'학회 페이지':'공지 원문'} ↗</a>`:''}
+     ${e.user?`<button class="btn" data-del="${esc(e.id)}">삭제</button>`:''}
+   </div></article>`;
+}
+function filters(opt={}){
+  const f=[['all','전체']].concat(Object.entries(FIELDS).filter(([k])=>!(opt.noIntl&&k==='intl')).map(([k,v])=>[k,v.label]));
+  const m=[['all','전체'],['off','● 대면'],['on','◉ 비대면'],['hyb','◐ 병행']].concat(opt.exp?[['conf','확정만'],['exp','예상만']]:[]);
+  return `<div class="toolbar"><label class="search">⌕<input id="q" placeholder="학회명·주제·장소 검색 (예: 한문, 충남대, 실험시)" value="${esc(state.q)}"></label></div>
+  <div class="chips"><span class="lab">분야</span>${f.map(([k,l])=>`<button class="chip ${state.field===k?'on':''}" data-field="${k}">${k!=='all'?`<span class="dot" style="background:${FIELDS[k].c}"></span>`:''}${l}</button>`).join('')}</div>
+  <div class="chips"><span class="lab">방식</span>${m.map(([k,l])=>`<button class="chip ${state.mode===k?'on':''}" data-mode="${k}">${l}</button>`).join('')}</div>`;
+}
+function bind(draw){
+  const q=document.getElementById('q'); if(q) q.oninput=()=>{state.q=q.value;draw(true)};
+  document.querySelectorAll('[data-field]').forEach(b=>b.onclick=()=>{state.field=b.dataset.field;draw()});
+  document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{state.mode=b.dataset.mode;draw()});
+}
+function list(id,items,group){
+  const box=document.getElementById(id); if(!items.length){box.innerHTML='<div class="empty">조건에 맞는 일정이 없습니다.</div>';return}
+  let h='',last='';
+  items.forEach(e=>{ if(group){const k=e.date.slice(0,7); if(k!==last){last=k;const d=pd(e.date);h+=`<div class="month">${d.getFullYear()}년 ${d.getMonth()+1}월</div>`}} h+=card(e)});
+  box.innerHTML=`<div class="grid">${h}</div>`;
+}
+const main=document.getElementById('main');
+const VIEWS={
+ upcoming(){
+  const draw=k=>{
+   let it=all().filter(e=>!isPast(e)&&e.f!=='intl'&&matches(e));
+   if(state.range==='30') it=it.filter(e=>dday(e.date)<=30);
+   if(state.range==='90') it=it.filter(e=>dday(e.date)<=90);
+   it.sort((a,b)=>pd(a.date)-pd(b.date)||(a.exp?1:0)-(b.exp?1:0));
+   if(!k){main.innerHTML=`<div class="panel">
+     <div class="note"><b>11~12월 일정이 적어 보이는 이유:</b> 12월·1월 학술대회 상당수는 보통 개최 2~4주 전에 공지가 올라옵니다. 아직 공지되지 않은 학회는 역대 개최 시기를 근거로 <b>점선 '예상' 카드</b>로 표시했고, 공지가 확인되는 대로 확정 일정으로 바꿉니다.</div>
+     ${filters({exp:true,noIntl:true})}
+     <div class="headrow"><h2>다가오는 학술대회 <small id="cnt"></small></h2>
+     <div class="seg">${[['all','전체'],['30','30일 이내'],['90','90일 이내']].map(([a,l])=>`<button class="${state.range===a?'on':''}" data-range="${a}">${l}</button>`).join('')}</div></div>
+     <p class="sub">국내 학회만 모았습니다. 해외 학회는 <a href="#overseas">해외 학회</a> 탭에서 볼 수 있어요.</p><div id="list"></div></div>`;
+     bind(draw); document.querySelectorAll('[data-range]').forEach(b=>b.onclick=()=>{state.range=b.dataset.range;draw()});}
+   const c=it.filter(e=>!e.exp).length; document.getElementById('cnt').textContent=`확정 ${c}건 · 예상 ${it.length-c}건`;
+   list('list',it,true);
+  }; draw();
+ },
+ overseas(){
+  const it=all().filter(e=>e.f==='intl'&&!isPast(e)).sort((a,b)=>pd(a.date)-pd(b.date));
+  const past=all().filter(e=>e.f==='intl'&&isPast(e)).sort((a,b)=>pd(b.date)-pd(a.date));
+  main.innerHTML=`<div class="panel"><div class="headrow"><h2>해외 학회 · 국제학술대회 <small>${it.length}건 예정</small></h2></div>
+   <p class="sub">한국문학 연구자가 발표·참석하는 해외 학회(AAS, AKSE, MLA, KLA 등)와 국내 개최 국제학술대회입니다. 해외 일정은 Korean Studies 메일링리스트와 kstudies.info에서도 수시로 확인할 수 있어요.</p>
+   <div id="list"></div><div class="headrow"><h2 style="font-size:18px">올해 열린 국제학술대회</h2></div><div id="list2"></div></div>`;
+  list('list',it,true); list('list2',past,false);
+ },
+ archive(){
+  const draw=k=>{const it=all().filter(e=>isPast(e)&&matches(e)).sort((a,b)=>pd(b.date)-pd(a.date));
+   if(!k){main.innerHTML=`<div class="panel">${filters()}<div class="headrow"><h2>지난 일정 <small id="cnt"></small></h2></div><p class="sub">2026년에 열린 학술대회입니다. 학회별 개최 시기를 가늠하는 데 쓰세요.</p><div id="list"></div></div>`;bind(draw);}
+   document.getElementById('cnt').textContent=it.length+'건'; list('list',it,true);}; draw();
+ },
+ saved(){
+  const it=all().filter(e=>saved.has(e.id)).sort((a,b)=>pd(a.date)-pd(b.date));
+  main.innerHTML=`<div class="panel"><div class="headrow"><h2>관심 학술대회 <small>${it.length}건</small></h2></div><p class="sub">카드 오른쪽 위 ☆를 누르면 여기에 모입니다. (이 브라우저에만 저장)</p><div id="list"></div></div>`;
+  list('list',it,false);
+ },
+ calendar(){
+  if(state.calY===null){state.calY=TODAY.getFullYear();state.calM=TODAY.getMonth()}
+  const draw=k=>{const y=state.calY,m=state.calM,first=new Date(y,m,1),st=new Date(first);st.setDate(1-first.getDay());
+   const evs=all().filter(matches);let cells='';
+   for(let i=0;i<42;i++){const d=new Date(st);d.setDate(st.getDate()+i);const s=iso(d);
+    const day=evs.filter(e=>s>=e.date&&s<=endOf(e));
+    cells+=`<div class="cell ${d.getMonth()!==m?'out':''} ${d.getDay()===0?'sun':''} ${+d===+TODAY?'today':''}"><span class="d">${d.getDate()}</span>${day.map(e=>{const F=FIELDS[e.f];return `<button class="ev ${e.exp||e.tbd?'exp':''}" style="--c:${F.c};--cs:${F.cs}" data-open="${esc(e.id)}">${e.mode==='on'?'◉ ':e.mode==='hyb'?'◐ ':''}${esc(e.title)}</button>`}).join('')}</div>`;
+    if(i>=34&&d.getMonth()!==m&&d.getDay()===6)break;}
+   if(!k){main.innerHTML=`<div class="panel">${filters({exp:true})}<div id="cw"></div></div>`;bind(draw);}
+   document.getElementById('cw').innerHTML=`<div class="calhead"><button class="btn" id="pv">‹</button><h2>${y}년 ${m+1}월</h2><button class="btn" id="nx">›</button><button class="btn" id="tt" style="margin-left:auto">오늘</button></div>
+    <div class="cal">${DOW.map(x=>`<div class="dow">${x}</div>`).join('')}${cells}</div>
+    <p class="sub" style="margin-top:10px">점선 = 예상 일정 · ◉ 비대면 · ◐ 병행. 항목을 누르면 자세히 볼 수 있어요.</p>`;
+   pv.onclick=()=>{state.calM--;if(state.calM<0){state.calM=11;state.calY--}draw(1)};
+   nx.onclick=()=>{state.calM++;if(state.calM>11){state.calM=0;state.calY++}draw(1)};
+   tt.onclick=()=>{state.calY=TODAY.getFullYear();state.calM=TODAY.getMonth();draw(1)};
+  }; draw();
+ },
+ deadlines(){
+  const rows=[];all().forEach(e=>(e.deadlines||[]).forEach(x=>rows.push({e,...x})));
+  const up=rows.filter(r=>dday(r.d)>=0).sort((a,b)=>pd(a.d)-pd(b.d));
+  main.innerHTML=`<div class="panel"><div class="headrow"><h2>발표 신청 · 참가 등록 마감</h2></div>
+   <p class="sub">공지에 마감일이 명시된 항목만 모았습니다.</p>
+   <div class="dl">${up.length?up.map(r=>{const F=FIELDS[r.e.f],n=dday(r.d);return `<div class="dlrow" style="--c:${F.c}"><div class="big ${n<=3?'soon':''}">${n===0?'오늘':'D-'+n}</div><div class="t"><b>${esc(r.label)}</b><span>${esc(r.e.title)} · 마감 ${fmt(r.d)}</span></div><a class="btn dark" href="${href(r.url||r.e.url)}" target="_blank" rel="noopener">원문 ↗</a></div>`}).join(''):'<div class="empty">현재 남은 마감이 없습니다.</div>'}</div></div>`;
+ },
+ societies(){
+  const ev=all(); const next={};
+  ev.filter(e=>!isPast(e)).sort((a,b)=>pd(a.date)-pd(b.date)).forEach(e=>{SOCIETIES.forEach(s=>{if(!next[s.n]&&e.org.includes(s.n)) next[s.n]=e})});
+  const lastHeld={}; ev.filter(isPast).sort((a,b)=>pd(b.date)-pd(a.date)).forEach(e=>{SOCIETIES.forEach(s=>{if(!lastHeld[s.n]&&e.org.includes(s.n)) lastHeld[s.n]=e})});
+  const draw=()=>{const L=SOCIETIES.filter(s=>state.socF==='all'||s.f===state.socF).sort((a,b)=>a.n.localeCompare(b.n,'ko'));
+   main.innerHTML=`<div class="panel"><div class="headrow"><h2>국문학 관련 학회 목록 <small>${L.length}곳</small></h2></div>
+   <p class="sub">KCI <b>우수등재·등재·등재후보</b> 학술지를 내는 국문학 관련 학회와 연구소입니다. KCI 주제분류 '한국어와문학' 전체 중 국어학·국어교육 전용 학회를 뺐고, 다른 분류에 속한 극예술·대중서사·고전문학교육 학회 등을 더했습니다. 각 학회의 다음 학술대회 공지가 확인되면 여기에 함께 표시됩니다. 회색 글씨는 __CHECKED__에 각 학회 홈페이지를 직접 열어 본 결과입니다.</p>
+   <div class="chips"><span class="lab">분야</span>${[['all','전체'],['modern','현대문학'],['classic','고전문학'],['hanmun','한문학'],['whole','국어국문 통합']].map(([k,l])=>`<button class="chip ${state.socF===k?'on':''}" data-sf="${k}">${l}</button>`).join('')}</div>
+   <div class="dirwrap"><table class="dir"><thead><tr><th>학회</th><th>학술지</th><th>분야</th><th>다음 일정 / 최근 개최</th><th></th></tr></thead><tbody>
+   ${L.map(s=>{const F=FIELDS[s.f];const nx=next[s.n],lh=lastHeld[s.n];
+     const st=nx?`<b>${nx.exp?'예상':'확정'}</b> ${nx.exp||nx.tbd?esc(nx.approx):fmtS(nx.date)} · ${esc(nx.title.slice(0,30))}${nx.title.length>30?'…':''}`:lh?`<span style="color:var(--ink3)">공지 대기 · 최근 ${lh.date.slice(0,7).replace('-','.')}</span>`:`<span style="color:var(--ink3)">아직 공지 없음</span>`;
+     return `<tr><td class="nm"><span class="dot" style="background:${F.c};margin-right:6px"></span>${esc(s.n)}</td><td>${esc(s.j)} <span class="gbadge ${s.g==='우수등재'?'top':''}">${esc(s.g)}</span></td><td>${F.label}</td><td class="st">${st}${s.c?`<div style="font-size:11.5px;color:var(--ink3);margin-top:3px">${esc(s.c)}</div>`:''}</td><td>${s.u?`<a class="btn" href="${href(s.u)}" target="_blank" rel="noopener">홈페이지 ↗</a>`:'<span style="font-size:12px;color:var(--ink3)">홈페이지 미확인</span>'}</td></tr>`}).join('')}
+   </tbody></table></div></div>`;
+   document.querySelectorAll('[data-sf]').forEach(b=>b.onclick=()=>{state.socF=b.dataset.sf;draw()});};
+  draw();
+ },
+ about(){
+  main.innerHTML=`<div class="panel"><div class="headrow"><h2>자료 기준 · 수집 방법</h2></div>
+  <div class="note"><b>자료 기준일: ${fmt(CHECKED)}</b> — 이 날짜에 아래 출처들을 직접 열어 확인했습니다.</div>
+  <ul style="line-height:1.9;font-size:14px;color:var(--ink2)">
+   <li><b>JAMS 포털 학회공지·행사안내</b>: KCI 등재 학회 대부분이 쓰는 JAMS의 전체 학회 공지를 '학술대회·발표회·심포지엄·콜로키움·포럼·세미나' 등으로 검색해 국문학 학회 것만 골랐습니다.</li>
+   <li><b>현문대(krlt.org)</b>: 현대문학 학회들의 학술행사가 모이는 게시판입니다.</li>
+   <li><b>KADH(한국디지털인문학협의회)</b> 학술회의 게시판</li>
+   <li><b>대학 국문과 학회 게시판</b>: 예) 이화여대 국어국문학과 대학원 '학회/학술지' 게시판</li>
+   <li><b>KCI 학회별 학술대회 개최 현황·연혁</b>: 지난 일정과 '예상' 일정의 근거로 썼습니다.</li>
+   <li><b>해외</b>: Korean Studies 메일링리스트, kstudies.info, AAS·AKSE·MLA 공식 안내</li>
+  </ul>
+  <p class="sub">일정마다 근거가 된 원문 링크를 달았습니다. 원문으로 확인할 수 없는 일정은 넣지 않았고, 대면·비대면 여부는 공지에 적힌 대로만 표시합니다. 공지에 적혀 있지 않으면 '진행 방식 공지 확인'으로 표시합니다.</p>
+  <p class="sub">누락되었거나 바뀐 일정이 있으면 <a href="#add">일정 직접 추가</a>로 내 화면에 바로 넣을 수 있어요(이 브라우저에만 저장).</p></div>`;
+ },
+ add(){
+  main.innerHTML=`<div class="panel"><div class="headrow"><h2>일정 직접 추가</h2></div><p class="sub">여기 없는 학술대회·월례발표회를 추가하면 목록·달력·관심에 함께 표시됩니다. (이 브라우저에만 저장)</p>
+  <form class="add" id="af">
+   <label class="full">학술대회명 *<input name="title" required></label>
+   <label>주최 학회·기관 *<input name="org" required></label>
+   <label>분야<select name="f">${Object.entries(FIELDS).map(([k,v])=>`<option value="${k}">${v.label}</option>`).join('')}</select></label>
+   <label>시작일 *<input type="date" name="date" required></label><label>종료일<input type="date" name="end"></label>
+   <label>시간<input name="time" placeholder="13:00–18:00"></label>
+   <label>진행 방식<select name="mode"><option value="off">대면</option><option value="on">비대면(온라인)</option><option value="hyb">대면+온라인 병행</option></select></label>
+   <label class="full">기획주제<input name="theme"></label><label class="full">장소<input name="place"></label>
+   <label>발표 신청·등록 마감일<input type="date" name="dl"></label><label>공지 원문 링크<input name="url" type="url" placeholder="https://"></label>
+   <div class="full"><button class="btn dark" type="submit" style="padding:10px 18px">일정 추가</button></div></form>
+  ${mine.length?`<h3 style="font-family:'Gowun Batang';margin:26px 0 10px">내가 추가한 일정</h3><div class="grid">${mine.map(e=>card({...e,user:true})).join('')}</div>`:''}</div>`;
+  document.getElementById('af').onsubmit=ev=>{ev.preventDefault();const fd=Object.fromEntries(new FormData(ev.target));
+   const e={id:'u'+Date.now(),title:fd.title,org:fd.org,f:fd.f,date:fd.date,mode:fd.mode,src:'직접 입력'};
+   ['end','time','theme','place','url'].forEach(k=>{if(fd[k])e[k]=fd[k]}); if(e.end&&e.end<e.date)delete e.end;
+   if(fd.dl)e.deadlines=[{d:fd.dl,label:'발표 신청·등록 마감'}];
+   mine.push(e);store.set('gm_mine',mine);toast('일정을 추가했습니다');counts();VIEWS.add();};
+ }
+};
+function counts(){const a=all();nUp.textContent=a.filter(e=>!isPast(e)&&e.f!=='intl').length;nPast.textContent=a.filter(isPast).length;nSaved.textContent=saved.size;
+ nIntl.textContent=a.filter(e=>e.f==='intl'&&!isPast(e)).length;nSoc.textContent=SOCIETIES.length;
+ let d=0;a.forEach(e=>(e.deadlines||[]).forEach(x=>{if(dday(x.d)>=0)d++}));nDl.textContent=d;}
+function toast(t){const el=document.getElementById('toast');el.textContent=t;el.classList.add('on');clearTimeout(toast._t);toast._t=setTimeout(()=>el.classList.remove('on'),1800)}
+function route(){let v=(location.hash||'#upcoming').slice(1);if(!VIEWS[v])v='upcoming';
+ document.querySelectorAll('nav.side a').forEach(a=>a.classList.toggle('on',a.dataset.v===v));VIEWS[v]();counts();window.scrollTo(0,0)}
+document.addEventListener('click',ev=>{
+ const s=ev.target.closest('[data-star]');
+ if(s){const id=s.dataset.star;saved.has(id)?saved.delete(id):saved.add(id);store.set('gm_saved',[...saved]);
+  document.querySelectorAll(`[data-star="${CSS.escape(id)}"]`).forEach(b=>{b.classList.toggle('on',saved.has(id));b.textContent=saved.has(id)?'★':'☆'});
+  counts();toast(saved.has(id)?'관심 학술대회에 담았습니다':'관심 표시를 해제했습니다');if(location.hash==='#saved')VIEWS.saved();return}
+ const c=ev.target.closest('[data-copy]');
+ if(c){const e=all().find(x=>x.id===c.dataset.copy);const m=MODES[e.mode];
+  const t=[`■ ${e.title}`,e.theme?`· 주제: ${e.theme}`:'',`· 주최: ${e.org}`,`· 일시: ${e.exp?e.approx+' (예상)':fmt(e.date)+(e.end?' ~ '+fmt(e.end):'')}${e.time?' '+e.time:''}`,e.place?`· 장소: ${e.place}`:'',m?`· 방식: ${m[0]}`:'',e.url?`· 원문: ${e.url}`:''].filter(Boolean).join('\n');
+  (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('일정 정보를 복사했습니다'),()=>toast('이 환경에서는 복사가 지원되지 않습니다'));return}
+ const d=ev.target.closest('[data-del]');
+ if(d){mine=mine.filter(x=>x.id!==d.dataset.del);store.set('gm_mine',mine);toast('삭제했습니다');route();modal.classList.remove('on');return}
+ const o=ev.target.closest('[data-open]');
+ if(o){const e=all().find(x=>x.id===o.dataset.open);modalBox.innerHTML=card(e);modal.classList.add('on');return}
+ if(ev.target===modal)modal.classList.remove('on');
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('on')});
+todayBox.innerHTML=`오늘 <b>${fmt(iso(TODAY))}</b><br>자료 기준일 ${CHECKED.replace(/-/g,'.')}`;
+legend.innerHTML=Object.values(FIELDS).map(F=>`<div><span class="dot" style="background:${F.c}"></span>${F.label}</div>`).join('')+'<div style="margin-top:8px">● 대면 ◉ 비대면 ◐ 병행</div>';
+window.addEventListener('hashchange',route);route();
+</script>
+</body>
+</html>
