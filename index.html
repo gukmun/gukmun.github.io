@@ -341,7 +341,7 @@ const VIEWS={
   const lastHeld={}; ev.filter(isPast).sort((a,b)=>pd(b.date)-pd(a.date)).forEach(e=>{SOCIETIES.forEach(s=>{if(!lastHeld[s.n]&&orgHas(e,s.n)) lastHeld[s.n]=e})});
   const draw=()=>{const L=SOCIETIES.filter(s=>state.socF==='all'||s.f===state.socF).sort((a,b)=>a.n.localeCompare(b.n,'ko'));
    main.innerHTML=`<div class="panel"><div class="headrow"><h2>국문학 관련 학회 목록 <small>${L.length}곳</small></h2></div>
-   <p class="sub">KCI <b>우수등재·등재·등재후보</b> 학술지를 내는 국문학 관련 학회와 연구소입니다. KCI 주제분류 '한국어와문학' 전체 중 국어학·국어교육 전용 학회를 뺐고, 다른 분류에 속한 극예술·대중서사·고전문학교육 학회 등을 더했습니다. 각 학회의 다음 학술대회 공지가 확인되면 여기에 함께 표시됩니다. 회색 글씨는 2026년 11월 16일에 각 학회 홈페이지를 직접 열어 본 결과입니다.</p>
+   <p class="sub">KCI <b>우수등재·등재·등재후보</b> 학술지를 내는 국문학 관련 학회와 연구소입니다. KCI 주제분류 '한국어와문학' 전체 중 국어학·국어교육 전용 학회를 뺐고, 다른 분류에 속한 극예술·대중서사·고전문학교육 학회 등을 더했습니다. 각 학회의 다음 학술대회 공지가 확인되면 여기에 함께 표시됩니다. 회색 글씨는 2026년 11월 16일에 각 학회 홈페이지를 직접 열어 본 결과입니다. 일부 학회 홈페이지는 보안 연결(https)을 지원하지 않아 크롬에서 "This site doesn't support a secure connection" 경고가 뜹니다. 이때 <b>Continue to site(사이트로 이동)</b>를 누르면 들어가집니다.</p>
    <div class="chips"><span class="lab">분야</span>${[['all','전체'],['modern','현대문학'],['classic','고전문학'],['hanmun','한문학'],['whole','국어국문 통합']].map(([k,l])=>`<button class="chip ${state.socF===k?'on':''}" data-sf="${k}">${l}</button>`).join('')}</div>
    <div class="dirwrap"><table class="dir"><thead><tr><th>학회</th><th>학술지</th><th>분야</th><th>다음 일정 / 최근 개최</th><th></th></tr></thead><tbody>
    ${L.map(s=>{const F=FIELDS[s.f];const nx=next[s.n],lh=lastHeld[s.n];
