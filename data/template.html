@@ -216,6 +216,8 @@ function matches(e){
   if(state.q){const h=[e.title,e.theme,e.org,e.place,e.note,e.basis].join(' ').toLowerCase(); if(!state.q.toLowerCase().split(/\s+/).every(w=>h.includes(w))) return false;}
   return true;
 }
+function normOrg(x){return x.replace(/\([^)]*\)/g,'').replace(/\s+/g,'');}
+function orgHas(e,n){const k=normOrg(n);return e.org.replace(/\([^)]*\)/g,'').split(/[·×,\/]/).some(p=>{p=normOrg(p);return p===k||(k.endsWith('연구소')&&p.includes(k))});}
 function gcal(e){const s=e.date.replace(/-/g,'');const n=pd(endOf(e));n.setDate(n.getDate()+1);
   const det=[e.theme,e.org,e.time?'시간: '+e.time:'',e.url].filter(Boolean).join('\n');
   return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.title)}&dates=${s}/${iso(n).replace(/-/g,'')}&details=${encodeURIComponent(det)}&location=${encodeURIComponent(e.place||'')}`;}
@@ -335,8 +337,8 @@ const VIEWS={
  },
  societies(){
   const ev=all(); const next={};
-  ev.filter(e=>!isPast(e)).sort((a,b)=>pd(a.date)-pd(b.date)).forEach(e=>{SOCIETIES.forEach(s=>{if(!next[s.n]&&e.org.includes(s.n)) next[s.n]=e})});
-  const lastHeld={}; ev.filter(isPast).sort((a,b)=>pd(b.date)-pd(a.date)).forEach(e=>{SOCIETIES.forEach(s=>{if(!lastHeld[s.n]&&e.org.includes(s.n)) lastHeld[s.n]=e})});
+  ev.filter(e=>!isPast(e)).sort((a,b)=>pd(a.date)-pd(b.date)).forEach(e=>{SOCIETIES.forEach(s=>{if(!next[s.n]&&orgHas(e,s.n)) next[s.n]=e})});
+  const lastHeld={}; ev.filter(isPast).sort((a,b)=>pd(b.date)-pd(a.date)).forEach(e=>{SOCIETIES.forEach(s=>{if(!lastHeld[s.n]&&orgHas(e,s.n)) lastHeld[s.n]=e})});
   const draw=()=>{const L=SOCIETIES.filter(s=>state.socF==='all'||s.f===state.socF).sort((a,b)=>a.n.localeCompare(b.n,'ko'));
    main.innerHTML=`<div class="panel"><div class="headrow"><h2>국문학 관련 학회 목록 <small>${L.length}곳</small></h2></div>
    <p class="sub">KCI <b>우수등재·등재·등재후보</b> 학술지를 내는 국문학 관련 학회와 연구소입니다. KCI 주제분류 '한국어와문학' 전체 중 국어학·국어교육 전용 학회를 뺐고, 다른 분류에 속한 극예술·대중서사·고전문학교육 학회 등을 더했습니다. 각 학회의 다음 학술대회 공지가 확인되면 여기에 함께 표시됩니다. 회색 글씨는 __CHECKED__에 각 학회 홈페이지를 직접 열어 본 결과입니다.</p>
