@@ -108,7 +108,7 @@
 }
 ],
 "url": "https://www.newswise.com/articles/join-chula-s-international-conference-on-korean-studies-in-asean-2026",
-"src": "언론 보도"
+"src": "출라롱꼰대학교 보도자료 (Newswise 배포본)"
 },
 {
 "id": "iakcs-2026h2",
@@ -199,7 +199,7 @@
 "place": "UCLA (미국)",
 "mode": "off",
 "url": "https://koreanstudies.com/pipermail/koreanstudies_koreanstudies.com/2026-July/015907.html",
-"src": "Korean Studies 메일링리스트 CFP"
+"src": "주최 측(UCLA Korean Humanities Initiative)이 Korean Studies 메일링리스트에 올린 공지"
 },
 {
 "id": "aas2027",
@@ -248,8 +248,9 @@
 "date": "2026-12-18",
 "approx": "2026년 12월 중순",
 "basis": "2023.12.15, 2024.12.20 등 매년 12월 중순 동계학술대회. 학회 홈페이지에 2026년 동계 공지는 아직 없음(마지막 학술대회 공지: 2026 춘계).",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001449&insiGeneInfoBean.gubunCaseNo=9&isPop=Y",
-"src": "KCI 학회 학술대회 기록"
+"url": "https://kohanhak.jams.or.kr/co/main/jmMain.kci",
+"src": "한국한문학회 홈페이지(JAMS)",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001449&insiGeneInfoBean.gubunCaseNo=9&isPop=Y"
 },
 {
 "id": "x-dongyang",
@@ -273,7 +274,7 @@
 "approx": "2026년 12월~2027년 1월",
 "basis": "봄·여름·겨울 연 3회 정기학술대회(2025년 겨울 제132차). 이번 겨울 일정은 아직 미공지.",
 "url": "http://www.classicedu.net/",
-"src": "학회 홈페이지"
+"src": "학회 홈페이지 (11/16 확인 당시 접속 불가)"
 },
 {
 "id": "x-dongbang",
@@ -296,8 +297,9 @@
 "date": "2027-01-13",
 "approx": "2027년 1월 중순",
 "basis": "2024·2025·2026년 모두 1월 동계 전국학술대회 개최(2026.1.14 경북대).",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000000385&insiGeneInfoBean.gubunCaseNo=13&isPop=Y",
-"src": "KCI 학회 연혁"
+"url": "https://eomunlon.jams.or.kr/co/main/jmMain.kci",
+"src": "한국문학언어학회 홈페이지(JAMS)",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000000385&insiGeneInfoBean.gubunCaseNo=13&isPop=Y"
 },
 {
 "id": "x-soseol",
@@ -309,7 +311,7 @@
 "approx": "2027년 1월",
 "basis": "겨울 정기학술대회를 1월에 개최(예: 제143차 2023년 겨울 → 2024.1.25 서울대). 학회 홈페이지는 현재 접속 불가.",
 "url": "http://www.hanguksoseol.org",
-"src": "학회 홈페이지"
+"src": "학회 홈페이지 (11/16 확인 당시 접속 불가)"
 },
 {
 "id": "x-minmun",
@@ -345,8 +347,9 @@
 "date": "2027-02-05",
 "approx": "2027년 1~2월",
 "basis": "연 3회 정기학술대회 중 겨울 대회가 전국학술대회(2026.2.20).",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001323&insiGeneInfoBean.gubunCaseNo=13&isPop=N",
-"src": "KCI 학회 연혁"
+"url": "https://kdrama.jams.or.kr/co/main/jmMain.kci",
+"src": "한국극예술학회 홈페이지(JAMS)",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001323&insiGeneInfoBean.gubunCaseNo=13&isPop=N"
 },
 {
 "id": "x-gohanyeon",
@@ -502,7 +505,7 @@
 "place": "Princeton University (미국)",
 "mode": "off",
 "url": "https://kstudies.info/events/show_event/21582",
-"src": "Korean Studies Events DB"
+"src": "Korean Studies 학술행사 게시판(kstudies.info)에 주최 측이 등록한 공지"
 },
 {
 "id": "kyu19",
@@ -514,7 +517,7 @@
 "place": "서울대학교",
 "mode": "off",
 "url": "https://kstudies.info/events/show_event/23704",
-"src": "Korean Studies Events DB"
+"src": "Korean Studies 학술행사 게시판(kstudies.info)에 주최 측이 등록한 공지"
 },
 {
 "id": "kicks",
@@ -527,7 +530,7 @@
 "place": "계명대학교 (대구)",
 "mode": "off",
 "url": "https://kstudies.info/events/show_event/21515",
-"src": "Korean Studies Events DB"
+"src": "Korean Studies 학술행사 게시판(kstudies.info)에 주최 측이 등록한 공지"
 },
 {
 "id": "gojeonbeonyeok35",
@@ -666,7 +669,7 @@
 "place": "연세대학교 백양관 220호 외",
 "mode": "off",
 "url": "https://kstudies.info/events/show_event/26612",
-"src": "Korean Studies Events DB"
+"src": "Korean Studies 학술행사 게시판(kstudies.info)에 주최 측이 등록한 공지"
 },
 {
 "id": "sanghur-jul",
@@ -765,7 +768,8 @@
 "place": "고려대학교 문과대학(서관) 132호",
 "mode": "off",
 "url": "https://kuhjhm.korea.ac.kr/hjhm/activity/conference.do",
-"src": "고려대 한자한문연구소"
+"src": "고려대 한자한문연구소",
+"alt": "https://portal.jams.or.kr/community/notice/noticeView.kci?noticeType=01&notiSeq=000000052516"
 },
 {
 "id": "sigah111",
@@ -775,8 +779,9 @@
 "date": "2026-04-24",
 "place": "온라인(ZOOM)",
 "mode": "on",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceView.kci?insiGeneInfoBean.insiId=INS000001465",
-"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
+"url": "https://classicalpoetry.jams.or.kr/co/main/jmMain.kci",
+"src": "한국시가학회 홈페이지(JAMS) '학회행사' 게시판",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceView.kci?insiGeneInfoBean.insiId=INS000001465"
 },
 {
 "id": "daejung26",
@@ -813,8 +818,9 @@
 "date": "2026-02-24",
 "place": "고려대학교 문과대학(서관) 23호",
 "mode": "off",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000002504&insiGeneInfoBean.gubunCaseNo=9&isPop=Y",
-"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
+"url": "https://portal.jams.or.kr/community/notice/noticeView.kci?noticeType=01&notiSeq=000000051316",
+"src": "고전문학한문학연구학회가 JAMS에 올린 공지 원문",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000002504&insiGeneInfoBean.gubunCaseNo=9&isPop=Y"
 },
 {
 "id": "kmlit53",
@@ -851,8 +857,9 @@
 "date": "2026-02-20",
 "place": "이화여자대학교 학관 553호",
 "mode": "off",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001323&insiGeneInfoBean.gubunCaseNo=13&isPop=N",
-"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
+"url": "https://kdrama.jams.or.kr/co/main/jmMain.kci",
+"src": "한국극예술학회 홈페이지(JAMS)",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001323&insiGeneInfoBean.gubunCaseNo=13&isPop=N"
 },
 {
 "id": "sanghur-feb",
@@ -873,8 +880,9 @@
 "date": "2026-02-06",
 "place": "동국대학교 다향관 세미나실",
 "mode": "off",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001402&insiGeneInfoBean.gubunCaseNo=9&isPop=Y",
-"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
+"url": "https://dongak1964.kr/board/anotice",
+"src": "동악어문학회 홈페이지 학술대회 안내 게시판",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001402&insiGeneInfoBean.gubunCaseNo=9&isPop=Y"
 },
 {
 "id": "minmun26w",
@@ -896,8 +904,9 @@
 "date": "2026-01-14",
 "place": "경북대학교 대학원동 학술회의실(214호)",
 "mode": "off",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000000385&insiGeneInfoBean.gubunCaseNo=13&isPop=Y",
-"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
+"url": "https://eomunlon.jams.or.kr/co/main/jmMain.kci",
+"src": "한국문학언어학회 홈페이지(JAMS)",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000000385&insiGeneInfoBean.gubunCaseNo=13&isPop=Y"
 },
 {
 "id": "iakle20",
@@ -918,8 +927,9 @@
 "date": "2026-01-08",
 "place": "동국대학교 만해관 모의법정",
 "mode": "off",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001402&insiGeneInfoBean.gubunCaseNo=9&isPop=Y",
-"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
+"url": "https://dongak1964.kr/board/anotice",
+"src": "동악어문학회 홈페이지 학술대회 안내 게시판",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001402&insiGeneInfoBean.gubunCaseNo=9&isPop=Y"
 },
 {
 "id": "sijo81",
