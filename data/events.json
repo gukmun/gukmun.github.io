@@ -690,7 +690,8 @@
 "place": "부산대학교 인문대학 시습관",
 "mode": "off",
 "url": "https://classicalpoetry.jams.or.kr/co/main/jmMain.kci",
-"src": "학회 홈페이지(JAMS) 공지"
+"src": "학회 홈페이지(JAMS) 공지",
+"alt": "http://www.korlit-so.org/index.php"
 },
 {
 "id": "bidamron3",
@@ -1364,5 +1365,43 @@
 "place": "서울시립대학교",
 "url": "https://www.pansori.or.kr/subList/32000006369",
 "src": "판소리학회 홈페이지 공지사항"
+},
+{
+"id": "kochih58",
+"f": "whole",
+"title": "제58회 한중인문학회 동계 국제학술대회",
+"theme": "한중인문학회 창립 30주년: 한중 인문학 연구의 회고와 전망",
+"org": "한중인문학회",
+"date": "2026-12-05",
+"place": "강원대학교 춘천캠퍼스",
+"note": "발표 신청은 10/20 마감.",
+"url": "http://kochih.kr/notice/view.php?idx=756",
+"src": "한중인문학회 홈페이지 공지"
+},
+{
+"id": "shimhoon7",
+"f": "modern",
+"title": "심훈학회 제7회 전국학술대회",
+"theme": "심훈과 동아시아",
+"org": "심훈학회",
+"date": "2026-10-10",
+"time": "14:00~",
+"place": "당진 심훈기념관 상록수문화관",
+"mode": "off",
+"url": "https://shimhoon.com/bbs/notice/76583768-da13-4c2e-be08-f3716347f6d3",
+"src": "심훈학회 홈페이지 공지"
+},
+{
+"id": "hanminjok26f",
+"f": "modern",
+"title": "2026 한민족문화학회 추계학술대회",
+"theme": "한국에서 보는 세계문학의 현재와 전망",
+"org": "한민족문화학회 · 심훈학회 · 경희대 아시아-아프리카문화연구센터 · 한국작가회의 세계문학위원회",
+"date": "2026-10-31",
+"time": "13:00–18:00",
+"place": "광운대학교 참빛관 B105·B106호",
+"mode": "off",
+"url": "https://shimhoon.com/bbs/notice/13de6fcc-e01f-4761-85c2-0d945140b60a",
+"src": "공동주최 심훈학회 홈페이지 공지"
 }
 ]
