@@ -247,7 +247,7 @@ function card(e){
      ${e.note?`<div><span class="i">✎</span><span>${esc(e.note)}</span></div>`:''}
    </div>
    <div class="foot">
-     <span class="src">출처: ${esc(e.src||'직접 입력')}${e.alt?` · <a href="${href(e.alt)}" target="_blank" rel="noopener" style="color:inherit">현문대 게시글</a>`:''}</span>
+     <span class="src">출처: ${esc(e.src||'직접 입력')}${e.alt?` · <a href="${href(e.alt)}" target="_blank" rel="noopener" style="color:inherit">${/krlt\.org/.test(e.alt)?'현문대 게시글':/jams/.test(e.alt)?'JAMS 게시글':/kci\.go/.test(e.alt)?'KCI 기록':'다른 게시처'}</a>`:''}</span>
      ${!e.exp&&!e.tbd&&!isPast(e)?`<a class="btn" href="${gcal(e)}" target="_blank" rel="noopener">＋ 캘린더</a>`:''}
      <button class="btn" data-copy="${esc(e.id)}">⧉ 복사</button>
      ${e.url?`<a class="btn dark" href="${href(e.url)}" target="_blank" rel="noopener">${e.exp?'학회 페이지':'공지 원문'} ↗</a>`:''}
@@ -344,7 +344,7 @@ const VIEWS={
    <div class="dirwrap"><table class="dir"><thead><tr><th>학회</th><th>학술지</th><th>분야</th><th>다음 일정 / 최근 개최</th><th></th></tr></thead><tbody>
    ${L.map(s=>{const F=FIELDS[s.f];const nx=next[s.n],lh=lastHeld[s.n];
      const st=nx?`<b>${nx.exp?'예상':'확정'}</b> ${nx.exp||nx.tbd?esc(nx.approx):fmtS(nx.date)} · ${esc(nx.title.slice(0,30))}${nx.title.length>30?'…':''}`:lh?`<span style="color:var(--ink3)">공지 대기 · 최근 ${lh.date.slice(0,7).replace('-','.')}</span>`:`<span style="color:var(--ink3)">아직 공지 없음</span>`;
-     return `<tr><td class="nm"><span class="dot" style="background:${F.c};margin-right:6px"></span>${esc(s.n)}</td><td>${esc(s.j)} <span class="gbadge ${s.g==='우수등재'?'top':''}">${esc(s.g)}</span></td><td>${F.label}</td><td class="st">${st}${s.c?`<div style="font-size:11.5px;color:var(--ink3);margin-top:3px">${esc(s.c)}</div>`:''}</td><td>${s.u?`<a class="btn" href="${href(s.u)}" target="_blank" rel="noopener">홈페이지 ↗</a>`:'<span style="font-size:12px;color:var(--ink3)">홈페이지 미확인</span>'}</td></tr>`}).join('')}
+     return `<tr><td class="nm"><span class="dot" style="background:${F.c};margin-right:6px"></span>${esc(s.n)}</td><td>${esc(s.j)} <span class="gbadge ${s.g==='우수등재'?'top':''}">${esc(s.g)}</span></td><td>${F.label}</td><td class="st">${st}${s.c?`<div style="font-size:11.5px;color:var(--ink3);margin-top:3px">${esc(s.c)}</div>`:''}</td><td>${s.u?`<a class="btn" href="${href(s.u)}" target="_blank" rel="noopener">${/jams\.or\.kr/.test(s.u)?'JAMS 홈페이지':'홈페이지'} ↗</a>`:'<span style="font-size:12px;color:var(--ink3)">홈페이지 미확인</span>'}${s.u2?` <a class="btn" href="${href(s.u2)}" target="_blank" rel="noopener" title="논문투고용 JAMS">JAMS ↗</a>`:''}</td></tr>`}).join('')}
    </tbody></table></div></div>`;
    document.querySelectorAll('[data-sf]').forEach(b=>b.onclick=()=>{state.socF=b.dataset.sf;draw()});};
   draw();

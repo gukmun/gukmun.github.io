@@ -10,8 +10,9 @@
 "place": "충남대학교 문원강당, 인문대학 254·255·444호",
 "mode": "off",
 "note": "기조발표 2편 + 고전문학·현대문학·국어학·한국어교육 분과 발표",
-"url": "https://portal.jams.or.kr/community/notice/noticeView.kci?noticeType=01&notiSeq=000000055783",
-"src": "JAMS 학회공지(어문연구학회)"
+"url": "https://www.eomun.or.kr/subList/20000000923?pmode=detail&nttSeq=1000000113",
+"src": "어문연구학회 홈페이지 공지",
+"alt": "https://portal.jams.or.kr/community/notice/noticeView.kci?noticeType=01&notiSeq=000000055783"
 },
 {
 "id": "minmun-fiction",
@@ -22,8 +23,9 @@
 "time": "12:30–17:00",
 "place": "플랫폼P (마포출판문화진흥센터, 홍대입구역 인근)",
 "mode": "off",
-"url": "https://portal.jams.or.kr/system/schedule/view.kci?evtSeq=000000013170",
-"src": "JAMS 행사안내(픽션과논픽션학회)"
+"url": "https://www.fiction-nonfiction.co.kr/subList/32000002403?pmode=detail&nttSeq=17",
+"src": "픽션과논픽션학회 홈페이지 공지",
+"alt": "https://portal.jams.or.kr/system/schedule/view.kci?evtSeq=000000013170"
 },
 {
 "id": "sihak58",
@@ -36,7 +38,7 @@
 "place": "충남대학교 인문대학 120·127호",
 "mode": "off",
 "url": "https://krlt.org/conference/2026-한국시학회-정기학술대회/",
-"src": "주최 측이 현문대에 직접 등록한 공지 (자체 홈페이지 공지 없음)"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "seongbuk",
@@ -61,7 +63,7 @@
 "place": "김수현드라마아트홀 2층 교육실",
 "mode": "off",
 "url": "https://krlt.org/conference/2026-김수현드라마아트홀-드라마-콜로키움/",
-"src": "주최 측이 현문대에 직접 등록한 공지 (자체 홈페이지 공지 없음)"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "kadh2026",
@@ -381,7 +383,7 @@
 "place": "서울대학교 14동 B101호 강당",
 "mode": "off",
 "url": "https://krlt.org/conference/구보학회-2026년-하반기-제43회-정기학술대회-87년-체제의/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "gojeon6",
@@ -393,7 +395,7 @@
 "place": "동국대학교 혜화관 2층 고순청세미나실",
 "mode": "off",
 "url": "https://krlt.org/conference/2026-한국고전문학회-대회-고전문학자-어떻게-살-것인/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "baedal",
@@ -405,7 +407,7 @@
 "place": "경상국립대학교 인문대학 101동 348호",
 "mode": "off",
 "url": "https://portal.jams.or.kr/community/notice/noticeView.kci?noticeType=01&notiSeq=000000055737",
-"src": "JAMS 학회공지"
+"src": "학회가 JAMS(논문투고시스템)에 올린 공지 원문"
 },
 {
 "id": "seoulmunhak",
@@ -417,7 +419,7 @@
 "place": "한국연구원",
 "mode": "off",
 "url": "https://krlt.org/conference/서울문학관홀-학술심포지움/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "eomunhak70",
@@ -429,7 +431,7 @@
 "place": "경북대학교 인문한국진흥관 B103·107·108호",
 "mode": "off",
 "url": "https://portal.jams.or.kr/community/notice/noticeView.kci?noticeType=01&notiSeq=000000055508",
-"src": "JAMS 학회공지"
+"src": "학회가 JAMS(논문투고시스템)에 올린 공지 원문"
 },
 {
 "id": "mihara",
@@ -440,8 +442,9 @@
 "time": "13:00–17:00",
 "place": "고려대학교 민족문화연구원 지훈회의실(B203)",
 "mode": "off",
-"url": "https://krlt.org/conference/미하라-요시아키三原芳秋-선생님과-함께하는-문학/",
-"src": "현문대 게시"
+"url": "https://icklc.korea.ac.kr/icklc/board/Notice.do?mode=view&articleNo=1588256",
+"src": "고려대 국제한국언어문화연구소 공지",
+"alt": "https://krlt.org/conference/미하라-요시아키三原芳秋-선생님과-함께하는-문학/"
 },
 {
 "id": "minjung",
@@ -453,7 +456,7 @@
 "place": "성균관대학교 인문사회캠퍼스",
 "mode": "off",
 "url": "https://krlt.org/conference/나-너-우리는-민중이다-2026-민중문화포럼/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "gubi-fall",
@@ -475,7 +478,7 @@
 "org": "이상문학회",
 "date": "2026-11-14",
 "url": "https://portal.jams.or.kr/community/notice/noticeView.kci?noticeType=01&notiSeq=000000055187",
-"src": "JAMS 학회공지"
+"src": "학회가 JAMS(논문투고시스템)에 올린 공지 원문"
 },
 {
 "id": "munhwan",
@@ -486,7 +489,7 @@
 "place": "동국대학교 법학관 2층",
 "mode": "off",
 "url": "https://portal.jams.or.kr/community/notice/noticeView.kci?noticeType=01&notiSeq=000000055190",
-"src": "JAMS 학회공지"
+"src": "학회가 JAMS(논문투고시스템)에 올린 공지 원문"
 },
 {
 "id": "kla2026",
@@ -547,7 +550,7 @@
 "place": "성신여자대학교",
 "mode": "off",
 "url": "https://portal.jams.or.kr/community/notice/noticeView.kci?noticeType=01&notiSeq=000000054775",
-"src": "JAMS 학회공지"
+"src": "학회가 JAMS(논문투고시스템)에 올린 공지 원문"
 },
 {
 "id": "parkhwasung",
@@ -560,7 +563,7 @@
 "place": "한국연구원 대회의실(지하 2층)",
 "mode": "off",
 "url": "https://krlt.org/conference/박화성연구회-창립-20주년-기념-학술제-박화성-문학연/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "dku-lex4",
@@ -585,7 +588,7 @@
 "place": "서울대학교 인문대학 14동 B101호",
 "mode": "hyb",
 "url": "https://krlt.org/conference/한국극예술학회-2026년-가을-정기학술대회-교섭하는-몸/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "women26",
@@ -598,7 +601,7 @@
 "place": "중앙대학교 303관 207호",
 "mode": "off",
 "url": "https://krlt.org/conference/한국여성문학학회-2026-하반기-학술대회-글로벌-신보수/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "ttang",
@@ -634,8 +637,9 @@
 "end": "2026-09-06",
 "place": "리츠메이칸대학 (일본 교토)",
 "mode": "off",
-"url": "https://krlt.org/conference/제13회-세계한국학대회-초록-모집/",
-"src": "현문대 게시"
+"url": "https://www.aks.ac.kr/cop/bbs/selectBoardArticle.do?nttId=322717&bbsId=BBSMSTR_000000000082&menuNo=4010110000",
+"src": "한국학중앙연구원 공지",
+"alt": "https://krlt.org/conference/제13회-세계한국학대회-초록-모집/"
 },
 {
 "id": "kmlit54",
@@ -647,8 +651,9 @@
 "time": "14:00–18:30",
 "place": "한국학중앙연구원 한국학대학원 101강의실",
 "mode": "hyb",
-"url": "http://krlt.org/conference/한중연-비교문화연구소한국근대문학회-공동학술/",
-"src": "현문대 게시"
+"url": "https://www.aks.ac.kr/cop/bbs/selectBoardArticle.do?nttId=323194&bbsId=BBSMSTR_000000000082",
+"src": "한국학중앙연구원 공지",
+"alt": "http://krlt.org/conference/한중연-비교문화연구소한국근대문학회-공동학술/"
 },
 {
 "id": "yonsei-ichks",
@@ -697,7 +702,7 @@
 "place": "경희대학교 문과대학 101호",
 "mode": "off",
 "url": "https://krlt.org/conference/비담론의-동아시아-세번째-경험칙의-위배違背들/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "hyunso69",
@@ -709,7 +714,7 @@
 "place": "성신여대 운정그린캠퍼스 P동 925호 · C동 311호",
 "mode": "hyb",
 "url": "http://krlt.org/conference/한국현대소설학회-제69회-전국학술대회/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "gukmun70",
@@ -748,7 +753,7 @@
 "place": "충남대학교 인문대학 444호",
 "mode": "off",
 "url": "http://krlt.org/conference/2026년-한국시학회-개최/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "hanmun26s",
@@ -771,7 +776,7 @@
 "place": "온라인(ZOOM)",
 "mode": "on",
 "url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceView.kci?insiGeneInfoBean.insiId=INS000001465",
-"src": "KCI 학회 학술대회 현황"
+"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
 },
 {
 "id": "daejung26",
@@ -784,7 +789,7 @@
 "place": "온라인",
 "mode": "on",
 "url": "https://krlt.org/conference/2026년-대중서사학회-봄-정기학술대회-동시대-한국-호/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "geunyeok",
@@ -809,7 +814,7 @@
 "place": "고려대학교 문과대학(서관) 23호",
 "mode": "off",
 "url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000002504&insiGeneInfoBean.gubunCaseNo=9&isPop=Y",
-"src": "KCI 학회 학술대회 현황"
+"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
 },
 {
 "id": "kmlit53",
@@ -822,7 +827,7 @@
 "place": "이화여자대학교 학관 553호",
 "mode": "off",
 "url": "https://krlt.org/conference/한국근대문학회-제53회-학술대회-위반과-연대-문학/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "krlt3",
@@ -847,7 +852,7 @@
 "place": "이화여자대학교 학관 553호",
 "mode": "off",
 "url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001323&insiGeneInfoBean.gubunCaseNo=13&isPop=N",
-"src": "KCI 학회 학술대회 현황"
+"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
 },
 {
 "id": "sanghur-feb",
@@ -869,7 +874,7 @@
 "place": "동국대학교 다향관 세미나실",
 "mode": "off",
 "url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001402&insiGeneInfoBean.gubunCaseNo=9&isPop=Y",
-"src": "KCI 학회 학술대회 현황"
+"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
 },
 {
 "id": "minmun26w",
@@ -880,7 +885,7 @@
 "date": "2026-01-30",
 "time": "10:30–18:00",
 "url": "https://krlt.org/page/14/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "munlang26",
@@ -892,7 +897,7 @@
 "place": "경북대학교 대학원동 학술회의실(214호)",
 "mode": "off",
 "url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000000385&insiGeneInfoBean.gubunCaseNo=13&isPop=Y",
-"src": "KCI 학회 학술대회 현황"
+"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
 },
 {
 "id": "iakle20",
@@ -903,7 +908,7 @@
 "date": "2026-01-12",
 "time": "13:00–18:30",
 "url": "https://krlt.org/page/17/",
-"src": "현문대 게시"
+"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
 },
 {
 "id": "dongak-jan",
@@ -914,7 +919,7 @@
 "place": "동국대학교 만해관 모의법정",
 "mode": "off",
 "url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001402&insiGeneInfoBean.gubunCaseNo=9&isPop=Y",
-"src": "KCI 학회 학술대회 현황"
+"src": "KCI에 학회가 등록한 학술대회 기록 (홈페이지 공지는 확인 못 함)"
 },
 {
 "id": "sijo81",
@@ -986,9 +991,10 @@
 "org": "한국고전연구학회",
 "date": "2026-12-10",
 "approx": "2026년 11월 말~2027년 2월",
-"basis": "2025.11.22 추계(제132차, Zoom), 2026.2.11 동계(제133차, 서울여대) 개최. 2026년 추계는 아직 미공지.",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001829&insiGeneInfoBean.gubunCaseNo=13&isPop=Y",
-"src": "KCI 학회 학술대회 현황"
+"basis": "2025.11.22 제132차 추계(비대면), 2026.2.11 제133차 동계(대면) 개최. 학회 홈페이지에 2026년 추계 공지는 아직 없음.",
+"url": "https://www.kcl1994.co.kr/",
+"src": "한국고전연구학회 홈페이지",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001829&insiGeneInfoBean.gubunCaseNo=13&isPop=Y"
 },
 {
 "id": "x-iall",
@@ -1072,18 +1078,6 @@
 "approx": "2027년 2월",
 "basis": "동계학술대회를 2월 한성대에서 개최(2025.2.21, 2026.2.27).",
 "url": "https://donggohak.jams.or.kr/co/main/jmMain.kci",
-"src": "학회 홈페이지(JAMS) 학술대회 목록"
-},
-{
-"id": "x-cakoll",
-"exp": true,
-"f": "whole",
-"title": "중앙어문학회 전국학술대회",
-"org": "중앙어문학회",
-"date": "2027-02-19",
-"approx": "2027년 2월",
-"basis": "2월·8월 전국학술대회 개최(2023.2.17, 2023.8.18, 2024.2.16).",
-"url": "https://cakoll.jams.or.kr/co/main/jmMain.kci",
 "src": "학회 홈페이지(JAMS) 학술대회 목록"
 },
 {
@@ -1268,8 +1262,9 @@
 "date": "2026-08-12",
 "place": "이화여자대학교 학관 109호",
 "mode": "off",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001829&insiGeneInfoBean.gubunCaseNo=13&isPop=Y",
-"src": "KCI 학회 학술대회 현황"
+"url": "https://www.kcl1994.co.kr/subList/20000001253?pmode=detail&nttSeq=1000000805",
+"src": "한국고전연구학회 홈페이지 공지",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001829&insiGeneInfoBean.gubunCaseNo=13&isPop=Y"
 },
 {
 "id": "gojeonyeongu134",
@@ -1279,8 +1274,9 @@
 "date": "2026-05-09",
 "place": "온라인 Zoom",
 "mode": "on",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001829&insiGeneInfoBean.gubunCaseNo=13&isPop=Y",
-"src": "KCI 학회 학술대회 현황"
+"url": "https://www.kcl1994.co.kr/subList/20000001253?pmode=detail&nttSeq=1000000803",
+"src": "한국고전연구학회 홈페이지 공지",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001829&insiGeneInfoBean.gubunCaseNo=13&isPop=Y"
 },
 {
 "id": "gojeonyeongu133",
@@ -1290,8 +1286,9 @@
 "date": "2026-02-11",
 "place": "서울여자대학교 50주년 기념관 640호",
 "mode": "off",
-"url": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001829&insiGeneInfoBean.gubunCaseNo=13&isPop=Y",
-"src": "KCI 학회 학술대회 현황"
+"url": "https://www.kcl1994.co.kr/subList/20000001253?pmode=detail&nttSeq=1000000800",
+"src": "한국고전연구학회 홈페이지 공지",
+"alt": "https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceViewPopup.kci?insiGeneInfoBean.insiId=INS000001829&insiGeneInfoBean.gubunCaseNo=13&isPop=Y"
 },
 {
 "id": "urimal26",
@@ -1340,5 +1337,35 @@
 "mode": "off",
 "url": "https://eomunhak.jams.or.kr/co/main/jmMain.kci",
 "src": "학회 홈페이지(JAMS) 학술대회 목록"
+},
+{
+"id": "dongak-sedae",
+"f": "modern",
+"title": "동악어문학회 2026년 여름 학술대회",
+"theme": "잡지를 읽는다는 것은 ― 『세대』로 보는 교양·지식·권력",
+"org": "동악어문학회",
+"date": "2026-08-03",
+"url": "https://dongak1964.kr/board/anotice/article/277913",
+"src": "동악어문학회 홈페이지 공지"
+},
+{
+"id": "dongak-min",
+"f": "classic",
+"title": "동악어문학회 2026년 여름 고전문학분야 학술대회",
+"theme": "民의 발견, 문학사의 복선",
+"org": "동악어문학회",
+"date": "2026-08-21",
+"url": "https://dongak1964.kr/board/notice/article/284285",
+"src": "동악어문학회 홈페이지 공지"
+},
+{
+"id": "pansori111",
+"f": "classic",
+"title": "판소리학회 제111차 정기학술대회",
+"org": "판소리학회",
+"date": "2026-09-19",
+"place": "서울시립대학교",
+"url": "https://www.pansori.or.kr/subList/32000006369",
+"src": "판소리학회 홈페이지 공지사항"
 }
 ]
