@@ -1748,5 +1748,45 @@
 "note": "성균관대·충남대 등 28개 기관 참여, 한국 고전 문론(한문학) 주제",
 "url": "https://www.cssn.cn/skgz/bwyc/202604/t20260427_5982546.shtml",
 "src": "중국사회과학망 보도 (주최 측 게시글 미확인)"
+},
+{
+"id": "liteligion26w",
+"f": "modern",
+"title": "한국문학과종교학회 2026 겨울 전국학술대회",
+"theme": "문학과 종교, 그리고 치유",
+"org": "한국문학과종교학회",
+"date": "2026-01-08",
+"time": "10:00–18:00",
+"place": "서강대학교 마태오관(MA관) 204",
+"mode": "off",
+"url": "http://liteligion.kr/sub_notice/view.php?mode=view&page=1&board_name=notice02&idx=4777",
+"src": "한국문학과종교학회 홈페이지 학술대회 공지",
+"alt": "https://liteligion.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "liteligion26s",
+"f": "modern",
+"title": "한국문학과종교학회 2026 여름 전국학술대회",
+"theme": "AI 시대의 문학과 종교",
+"org": "한국문학과종교학회",
+"date": "2026-07-04",
+"time": "10:00–18:00",
+"place": "건국대학교 글로컬캠퍼스(충주)",
+"mode": "off",
+"url": "http://liteligion.kr/sub_notice/view.php?mode=view&page=1&board_name=notice02&idx=4821",
+"src": "한국문학과종교학회 홈페이지 학술대회 공지",
+"alt": "https://liteligion.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "x-liteligion-w",
+"exp": true,
+"f": "modern",
+"title": "한국문학과종교학회 겨울 전국학술대회",
+"org": "한국문학과종교학회",
+"date": "2027-01-08",
+"approx": "2027년 1월 초",
+"basis": "매년 1월·7월 전국학술대회 개최(2025.1.9, 2026.1.8). 2027년 겨울 대회는 아직 미공지.",
+"url": "http://liteligion.kr/sub_notice/list.php?board_name=notice02",
+"src": "한국문학과종교학회 홈페이지 학술대회 공지 게시판"
 }
 ]
