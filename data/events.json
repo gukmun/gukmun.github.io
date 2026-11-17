@@ -308,7 +308,7 @@
 "date": "2027-01-29",
 "approx": "2027년 1월 말",
 "basis": "2026년 겨울 대회 1.30 개최.",
-"url": "https://minmunhak.jams.or.kr/co/main/jmMain.kci",
+"url": "https://www.minmunhak.com/",
 "src": "민족문학사연구소 홈페이지",
 "alt": "https://krlt.org/page/14/"
 },
@@ -692,7 +692,8 @@
 "place": "경희대학교 문과대학 101호",
 "mode": "off",
 "url": "https://krlt.org/conference/비담론의-동아시아-세번째-경험칙의-위배違背들/",
-"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
+"src": "주최 측이 현문대에 등록한 공지 (연구소 홈페이지 첫 화면에도 안내 있음, 개별 게시글 주소 없음)",
+"alt": "https://www.minmunhak.com/"
 },
 {
 "id": "hyunso69",
@@ -876,7 +877,7 @@
 "date": "2026-01-30",
 "time": "10:30–18:00",
 "url": "https://krlt.org/page/14/",
-"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
+"src": "주최 측이 현문대에 직접 등록한 공지 (연구소 홈페이지에는 공지 없음)"
 },
 {
 "id": "munlang26",
@@ -898,8 +899,11 @@
 "org": "국제한국문학문화학회",
 "date": "2026-01-12",
 "time": "13:00–18:30",
-"url": "https://krlt.org/page/17/",
-"src": "주최 측이 현문대에 직접 등록한 공지 (학회 홈페이지에는 공지 없음)"
+"url": "http://koreanst.org/notice01/view.asp?Key=61",
+"src": "국제한국문학문화학회 홈페이지 공지",
+"alt": "https://krlt.org/page/17/",
+"mode": "hyb",
+"place": "연세대학교 위당관 6층 백주년기념홀 + Zoom"
 },
 {
 "id": "dongak-jan",
@@ -958,9 +962,9 @@
 "org": "한국드라마학회",
 "date": "2026-11-28",
 "approx": "2026년 11월 하순",
-"basis": "2023.11.25, 2024.11.16 추계학술대회 개최. 2026년 추계는 아직 미공지.",
-"url": "https://dramak.jams.or.kr/co/main/jmMain.kci",
-"src": "학회 홈페이지(JAMS) 학술대회 목록"
+"basis": "2024.11.16, 2025.11.15 추계학술대회 개최. 2026년 추계는 아직 미공지.",
+"url": "http://dramaresearch.kr/notice/list.asp",
+"src": "한국드라마학회 홈페이지 공지"
 },
 {
 "id": "x-geunyeok",
@@ -1561,5 +1565,123 @@
 "mode": "hyb",
 "url": "http://bangyo.or.kr/board02/view.asp?Key=79",
 "src": "반교어문학회 홈페이지 학술대회 게시판"
+},
+{
+"id": "koli50",
+"f": "modern",
+"title": "한국문예창작학회 제50회 정기학술대회 및 정기총회",
+"theme": "문예창작과 로컬리티(2) - 우리 시대 문학장의 정동과 정치",
+"org": "한국문예창작학회",
+"date": "2026-11-21",
+"place": "계명대학교",
+"mode": "off",
+"url": "http://www.koli.info/board/board.html?mode=read&db=notice&keyno=2152",
+"src": "한국문예창작학회 홈페이지 공지",
+"note": "세부 시간은 공지 첨부 일정표(PDF) 참고",
+"alt": "https://koli.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "dgukoli57",
+"f": "whole",
+"title": "동국대 한국문학연구소 제57차 학술대회 「한국문학 신진연구자 학술대회」",
+"org": "한국문학연구소(동국대)",
+"date": "2026-03-21",
+"time": "13:00–17:30",
+"place": "동국대학교 다향관 세미나실",
+"mode": "off",
+"url": "https://koli.dongguk.edu/article/notice/detail/207160",
+"src": "동국대 한국문학연구소 홈페이지 공지"
+},
+{
+"id": "onji26sum",
+"f": "hanmun",
+"title": "온지학회 2026년 하계학술대회",
+"theme": "동양고전 속 종교적 사유와 인간",
+"org": "온지학회",
+"date": "2026-08-28",
+"time": "13:00~",
+"place": "동국대학교 다향관 학술세미나실(216호)",
+"mode": "off",
+"url": "http://www.onji3399.org/board04/view.asp?key=22&main=&sub=",
+"src": "온지학회 홈페이지 정기학술대회 게시판",
+"alt": "https://onji.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "x-onji-fall",
+"exp": true,
+"f": "hanmun",
+"title": "온지학회 2026년 추계학술대회",
+"org": "온지학회",
+"date": "2026-12-05",
+"approx": "2026년 11월 말~12월 초",
+"basis": "연 4회(동계·춘계·하계·추계) 학술대회 개최. 2025 추계는 12/6 개최. 2026 추계 일정은 아직 미공지.",
+"url": "http://www.onji3399.org/board04/list.asp",
+"src": "온지학회 홈페이지 정기학술대회 게시판"
+},
+{
+"id": "daedong156",
+"f": "hanmun",
+"title": "대동한문학회 제156차 춘계학술대회",
+"theme": "융합시대의 한국한문학과 고문헌",
+"org": "대동한문학회",
+"date": "2026-05-09",
+"time": "12:30–18:30",
+"place": "창녕 석리 성씨고가 (경남 창녕군)",
+"mode": "off",
+"url": "https://www.xn--vk1b3p30pqk3ana04p.kr/subList/20000000860?pmode=detail&nttSeq=1000000390",
+"src": "대동한문학회 홈페이지 공지",
+"alt": "https://daedonghanmun.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "daedong157",
+"f": "hanmun",
+"title": "대동한문학회 제157차 하계학술대회 (신진연구자)",
+"org": "대동한문학회",
+"date": "2026-07-04",
+"time": "10:00–18:00",
+"place": "안동 국립경국대학교 국제교류관 2층 중회의실",
+"mode": "off",
+"url": "https://www.xn--vk1b3p30pqk3ana04p.kr/subList/20000000860?pmode=detail&nttSeq=1000000393",
+"src": "대동한문학회 홈페이지 공지",
+"alt": "https://daedonghanmun.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "daedong158",
+"f": "hanmun",
+"title": "대동한문학회 제158차 추계학술대회",
+"org": "대동한문학회 · 경북대학교 한문학과",
+"date": "2026-10-17",
+"time": "12:00–18:00",
+"place": "경북대학교 대학원동 214호",
+"mode": "off",
+"url": "https://www.xn--vk1b3p30pqk3ana04p.kr/subList/20000000860?pmode=detail&nttSeq=1000000399",
+"src": "대동한문학회 홈페이지 공지",
+"alt": "https://daedonghanmun.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "x-daedong-win",
+"exp": true,
+"f": "hanmun",
+"title": "대동한문학회 동계학술대회",
+"org": "대동한문학회",
+"date": "2027-02-13",
+"approx": "2027년 2월",
+"basis": "연 4회 학술발표회 개최. 직전 동계는 2025.2.14(제151차). 2026-27 동계 일정은 아직 미공지.",
+"url": "https://www.xn--vk1b3p30pqk3ana04p.kr/subList/20000000860",
+"src": "대동한문학회 홈페이지 공지사항"
+},
+{
+"id": "dramak26s",
+"f": "modern",
+"title": "한국드라마학회 2026 춘계학술대회",
+"theme": "공감의 드라마: 관객경험과 정치학",
+"org": "한국드라마학회",
+"date": "2026-06-13",
+"time": "13:00–17:40",
+"place": "세종대학교 광개토관 12층",
+"mode": "off",
+"url": "http://dramaresearch.kr/notice/view.asp?key=106",
+"src": "한국드라마학회 홈페이지 공지(개최 후 게시)",
+"alt": "https://dramak.jams.or.kr/co/main/jmMain.kci"
 }
 ]
