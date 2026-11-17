@@ -1683,5 +1683,70 @@
 "url": "http://dramaresearch.kr/notice/view.asp?key=106",
 "src": "한국드라마학회 홈페이지 공지(개최 후 게시)",
 "alt": "https://dramak.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "kles254",
+"f": "whole",
+"title": "한국어문교육연구회 제254회 전국학술대회",
+"org": "한국어문교육연구회",
+"date": "2026-04-18",
+"place": "성균관대학교",
+"mode": "off",
+"url": "https://www.hanja.re.kr/kal/award/pic.do?hid=402",
+"src": "한국어문회·한국어문교육연구회 홈페이지 행사사진 게시글",
+"alt": "https://kles.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "kles255",
+"f": "whole",
+"title": "한국어문교육연구회 제255회 학술대회",
+"org": "한국어문교육연구회",
+"date": "2026-07-11",
+"time": "10:30–17:00",
+"place": "강원대학교 인문대 3호관",
+"mode": "off",
+"url": "https://www.hanja.re.kr/kal/award/noticeDetail.do?notice_sn=3185",
+"src": "한국어문회·한국어문교육연구회 홈페이지 공지",
+"alt": "https://kles.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "kles258",
+"f": "whole",
+"title": "한국어문교육연구회 제258회 학술대회",
+"org": "한국어문교육연구회",
+"date": "2027-01-15",
+"time": "11:00–17:00",
+"place": "사이버한국외국어대학교",
+"mode": "off",
+"note": "국어학·고전문학(한문학 포함)·현대문학·국어교육 발표. 발표신청 11/8 마감",
+"url": "https://www.hanja.re.kr/kal/award/noticeDetail.do?notice_sn=3191",
+"src": "한국어문회·한국어문교육연구회 홈페이지 공지",
+"alt": "https://kles.jams.or.kr/co/main/jmMain.kci"
+},
+{
+"id": "aasasia2027",
+"f": "intl",
+"title": "AAS-in-Asia 2027 (아시아학회 아시아 대회)",
+"theme": "Asian Currents: shifting tides, recasting terrains",
+"org": "Association for Asian Studies · Sunway University",
+"date": "2027-07-01",
+"end": "2027-07-03",
+"place": "Sunway University, Kuala Lumpur (말레이시아)",
+"mode": "off",
+"note": "한국학 포함 아시아학 전 분야. 패널·라운드테이블 제안 마감 2026.10.30(마감됨)",
+"url": "https://sunwayuniversity.edu.my/conference/aas-2027",
+"src": "개최교 Sunway University 공식 대회 페이지"
+},
+{
+"id": "hunan-gumunron",
+"f": "intl",
+"title": "중한 동아시아 고전문론 국제학술대회 및 『朝鮮古代文論校注』 출간 발표회",
+"org": "후난사범대학 외국어학원·언어와문화연구원",
+"date": "2026-04-25",
+"place": "후난사범대학 (중국 창사)",
+"mode": "off",
+"note": "성균관대·충남대 등 28개 기관 참여, 한국 고전 문론(한문학) 주제",
+"url": "https://www.cssn.cn/skgz/bwyc/202604/t20260427_5982546.shtml",
+"src": "중국사회과학망 보도 (주최 측 게시글 미확인)"
 }
 ]
